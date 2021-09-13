@@ -1,4 +1,4 @@
-# Aliaksandr Grishchuk
+# Aliaksandr Hryshchuk
 ## Contact:
 * phone: +375 (29) 220-12-09
 * email: alex_grishchuk@tut.by
