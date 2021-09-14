@@ -1,13 +1,17 @@
 # Aliaksandr Hryshchuk
+
 ## Contact:
 * phone: +375 (29) 220-12-09
 * email: alex_grishchuk@tut.by
+
 ## About Me:
 I'm interested in Computer Science. I desire to learn a new field for myself as web development.
+
 ## Skills:
 * __Programming Languages:__ C, C++, SQL
 * __Web Technologies:__ HTML, CSS
 * __Version Control System:__ Git
+
 ## Code examples:
 ```C
 void shellsort(Item a[], int l, int r, bool (*comp) (Item, Item))
@@ -30,9 +34,12 @@ void shellsort(Item a[], int l, int r, bool (*comp) (Item, Item))
     }
 }
 ```
+
 ## Work experience: 
 2010-2020 - Software engineer at Brestenergo. Responsibilities: network administration and security, technical support for SCADA systems, software maintenance, user support.
+
 ## Education:
 Brest State Technical University. Faculty of electronic informational systems. Specialty: computers, systems and networks.
+
 ## Foreign Language:
 English: Pre-Intermediate.
