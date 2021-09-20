@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url(/assets/fonts/Caveat-Regular.ttf);
+       url(assets/fonts/Caveat-Regular.ttf);
 }
 
 /* caveat-500 */
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 500;
   src: local(''),
-       url(/assets/fonts/Caveat-Medium.ttf);
+       url(assets/fonts/Caveat-Medium.ttf);
 }
 
 /* Montserrat-500 */
@@ -22,7 +22,7 @@
   font-style: normal;
   font-weight: 500;
   src: local(''),
-       url(/assets/fonts/Montserrat-Medium.ttf);
+       url(assets/fonts/Montserrat-Medium.ttf);
 }
 
 /* Manrope-300 */
@@ -31,7 +31,7 @@
   font-style: normal;
   font-weight: 300;
   src: local(''),
-       url(/assets/fonts/Manrope-Light.ttf);
+       url(assets/fonts/Manrope-Light.ttf);
 }
 
 /* Manrope-400 */
@@ -40,7 +40,7 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url(/assets/fonts/Manrope-Regular.ttf);
+       url(assets/fonts/Manrope-Regular.ttf);
 }
 
 /* Manrope-500 */
@@ -49,7 +49,7 @@
   font-style: normal;
   font-weight: 500;
   src: local(''),
-       url(/assets/fonts/Manrope-Medium.ttf);
+       url(assets/fonts/Manrope-Medium.ttf);
 }
 
 /* OpenSans-300 */
@@ -58,7 +58,7 @@
   font-style: normal;
   font-weight: 300;
   src: local(''),
-       url(/assets/fonts/OpenSans-Light.ttf);
+       url(assets/fonts/OpenSans-Light.ttf);
 }
 
 /* OpenSans-400 */
@@ -67,7 +67,7 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url(/assets/fonts/OpenSans-Regular.ttf);
+       url(assets/fonts/OpenSans-Regular.ttf);
 }
 
 /* Roboto-300 */
@@ -76,7 +76,7 @@
   font-style: normal;
   font-weight: 300;
   src: local(''),
-       url(/assets/fonts/Roboto-Light.ttf);
+       url(assets/fonts/Roboto-Light.ttf);
 }
 
 /* Roboto-400 */
@@ -85,7 +85,7 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url(/assets/fonts/Roboto-Regular.ttf);
+       url(assets/fonts/Roboto-Regular.ttf);
 }
 
 /* Roboto-500 */
@@ -94,7 +94,7 @@
   font-style: normal;
   font-weight: 500;
   src: local(''),
-       url(/assets/fonts/Roboto-Medium.ttf);
+       url(assets/fonts/Roboto-Medium.ttf);
 }
 
 :root {
