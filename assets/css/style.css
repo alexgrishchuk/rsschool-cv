@@ -495,4 +495,56 @@ a:active) svg path {
   border-bottom: 1px dashed #94A7AA;
 }
 /* examples end */
+
+/* contacts start */
+.contact {
+  padding-bottom: 25px;
+}
+
+.contacts__list {
+  margin: 0;
+  padding-left: 16px;
+}
+
+.contacts__list-item {
+  line-height: 2;
+
+  list-style: none  ;
+}
+
+.contacts__link {
+  width: max-content;
+
+  text-decoration: none;
+  color: var(--main-text-color);
+  transition: color var(--hover-transition-time) var(--hover-transition-function);
+}
+
+.contacts__link:hover,
+.contacts__link:focus,
+.contacts__link:active {
+  color: var(--link-hover-color);
+}
+
+.contacts__link svg {
+  margin-right: 4px;
+  vertical-align: text-top;
+}
+
+.contacts__link svg path {
+  transition: fill var(--hover-transition-time) var(--hover-transition-function);
+}
+
+:is(.contacts__link:hover,
+.contacts__link:focus,
+.contacts__link:active) svg path {
+  fill: var(--link-hover-color);
+}
+
+:is(.discord__link:hover,
+.discord__link:focus,
+.discord__link:active) svg path {
+  fill: #5865F2;
+}
+/* contacts end */
 /* main end */
