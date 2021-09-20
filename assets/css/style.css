@@ -308,3 +308,45 @@ body {
 /* header end */
 
 
+/* main start */
+.section {
+  padding-top: 25px;
+}
+
+.section-title {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  font-family: 'Montserrat';
+  color: #000000;
+}
+
+.underline-title {
+  position: relative;
+
+  margin-bottom: 48px;
+}
+
+.underline-title::after {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  right: 0;
+  height: 3px;
+
+  background-color:  #94A7AA;
+
+  content: "";
+}
+
+.main-text {
+  font-style: normal;
+  font-weight: var(--main-text-font-weight);
+  font-size: 22px;
+  line-height: 1.25;
+  font-family: var(--main-text-font);
+  color: var(--main-text-color);
+}
+/* main end */
