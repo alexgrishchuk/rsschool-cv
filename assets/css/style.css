@@ -548,3 +548,52 @@ a:active) svg path {
 }
 /* contacts end */
 /* main end */
+
+/* footer start */
+.footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: var(--bg-color);
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.git-logo-link {
+  text-decoration: none;
+}
+
+.git-logo-link svg path {
+  transition: fill var(--hover-transition-time) var(--hover-transition-function);
+}
+
+:is(.git-logo-link:hover,
+.git-logo-link:focus,
+.git-logo-link:active) svg path {
+  fill: var(--link-hover-color);
+}
+
+.rs-link svg path {
+  transition: fill var(--hover-transition-time) var(--hover-transition-function);
+}
+
+:is(.rs-link:hover,
+.rs-link:focus,
+.rs-link:active) svg {
+  fill: var(--link-hover-color);
+}
+
+.year {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: 'Roboto';
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+/* footer end */
