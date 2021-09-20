@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="assets/svg/favicon.svg">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="visually-hidden">Aliaksandr Hryshchuk</h1>
+        <div class="container header__grid">
+            <nav class="menu header__menu">
+                <button class="menu__button keyboard-focused" type="button" aria-expanded="false" aria-controls="menu__list">
+                    <svg class="menu__icon" aria-hidden="true" width="32" height="32">
+                        <use class="menu__icon-menu" href="assets/img/sprite.svg#menu"></use>
+                        <use class="menu__icon-cross" href="assets/img/sprite.svg#cross"></use>
+                    </svg>
+                </button>
+                <ul class="menu__list" id="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link keyboard-focused" href="#about">About Me</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link keyboard-focused" href="#skills">Skills</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link keyboard-focused" href="#examples">Examples</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link keyboard-focused" href="#experience">Work experience</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link keyboard-focused" href="#education">Education</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link keyboard-focused" href="#language">Language</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link keyboard-focused" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <figure class="avatar">
+                <img class="avatar-image" src="assets/img/me.jpg" alt="My photo" width="200" height="200">
+                <figcaption>Aliaksandr Hryshchuk</figcaption>
+            </figure>
+        </div>
+    </header>
+    <main>
+    </main>
+    <footer class="footer">
+    </footer>
+    <script>
+        (() => {
+            const menuButton = document.querySelector('.menu__button');
+            const menuList = document.querySelector('.menu__list');
+
+            menuButton.addEventListener('click', () => {
+                let expanded = menuButton.getAttribute('aria-expanded') === 'true';
+                menuButton.setAttribute('aria-expanded', !expanded);
+                menuButton.classList.toggle('menu__button--open');
+                menuList.classList.toggle('menu__list--open');
+            });
+        })();
+    </script>
+</body>
+</html>
