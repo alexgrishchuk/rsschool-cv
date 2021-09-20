@@ -373,4 +373,126 @@ body {
 .skills__list-item {
   line-height: 1.5;
 }
+
+/* examples start */
+.subtitle-text {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  font-family: 'Montserrat';
+  color: #000000;
+}
+
+.padding-left-20 {
+  padding-left: 20px;
+}
+
+@media (max-width: 520px) {
+  .code-container code {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .padding-left-20 {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 440px) {
+  .code-container code {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 360px) {
+  .code-container code {
+    font-size: 10px;
+  }
+}
+
+.code-container pre {
+  margin: 0;
+}
+
+.code-container a {
+  text-decoration: none;
+  color: var(--main-text-color);
+
+  transition: color var(--hover-transition-time) var(--hover-transition-function);
+}
+
+.code-container :is(a:hover,
+a:focus,
+a:active) {
+  color: var(--link-hover-color);
+}
+
+.code-container a svg {
+  vertical-align: -0.1em;
+}
+
+.code-container a svg path {
+  transition: fill var(--hover-transition-time) var(--hover-transition-function);
+}
+
+.code-container :is(a:hover,
+a:focus,
+a:active) svg path {
+  fill: var(--link-hover-color);
+}
+
+.code-container code {
+  width: max-content;
+}
+
+.project-link {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 768px;
+}
+
+.project-container svg {
+  position: absolute;
+  align-self: center;
+  z-index: 1;
+
+  width: 10%;
+
+  fill: #ffffff;
+  transition: fill var(--hover-transition-time) var(--hover-transition-function);
+}
+
+:is(.project-link:hover,
+.project-link:focus,
+.project-link:active) svg {
+  fill: var(--link-hover-color);
+}
+
+.project-link img {
+  width: 100%;
+  height: auto;
+
+  transition: filter var(--hover-transition-time) var(--hover-transition-function);
+}
+
+:is(.project-link:hover,
+.project-link:focus,
+.project-link:active) img {
+  filter: brightness(0.8);
+}
+
+.subsection-divider {
+  margin-bottom: 24px;
+  border-bottom: 1px dashed #94A7AA;
+}
+/* examples end */
 /* main end */
